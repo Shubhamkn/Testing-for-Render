@@ -7,3 +7,9 @@ def install_dependencies():
         print("Dependencies installed successfully.")
     except subprocess.CalledProcessError:
         print("Failed to install dependencies.")
+
+
+if __name__ == '__main__':
+    install_dependencies()
+    # virtual_env_install()
+    # activate_env()
